@@ -1,0 +1,579 @@
+    *{
+        padding: 0;
+        margin: 0;
+        font-family:微软雅黑; 
+    }
+    ul,li,ol{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+    }
+    .cover{
+        height: 120px;
+        width: 100%;
+        background-color: #fff;
+        z-index: 1000;
+        margin: 0 auto;
+    }
+    .header{
+            
+            height: 35px;
+            width:1180px;
+            margin: 0 auto;
+            
+    }
+    .header_1{
+        
+        color: #9a9793;
+        font-size: 15px;
+        display:block;
+        float: left; 
+        margin-left: 25px;
+        margin-top:5px;
+    }
+    .header_2{
+            
+            margin-left: 250px;
+            margin-top:5px;
+            display:block;
+            float: left; 
+    }
+    .header_3{
+            display:block;
+            float: left; 
+            margin-left: 15px;
+            margin-top:5px;
+    }
+    .header_4{
+            display:block;
+            float: left; 
+            color: #9a9793;
+            font-size: 15px;
+            margin-left: 14px;
+            margin-top:5px;
+    }
+
+    .header_5{
+        display:block;
+        float: left; 
+        margin-left: 14px;
+        margin-top:5px;
+    }
+
+    .header_6{
+        
+        color: #9a9793;
+        font-size: 15px;
+        margin-left: 2px;
+        margin-top:5px;
+        display:block;
+        float: left; 
+    }
+    .header_7{
+        
+        margin-left: 14px;
+        margin-top:5px;
+        color: #fe6d01;
+        font-size: 15px;
+        display:block;
+        float: left; 
+    }
+    .mainNav{
+        width: 1180px;
+        height: 84px;
+        margin:0 auto;
+
+    }
+    .mainNav_1{
+        width: 250px;
+        height: 84px;
+        float: left;
+
+    }
+    .mainNav_2{
+        width: 586px;
+        height: 84px;
+        float: left;
+
+    }
+    
+    .mainNav_search{
+        width: 440px;
+        height: 43px;
+        float: left;
+        color: #74736d;
+        margin-top: 15px;
+        margin-left: 45px;
+        border:2px solid #fe6c00;
+    }
+    .mainNav_button{
+        width: 73px;
+        height: 47px;
+        margin-top: 15px;
+        color: #fff;
+        background-color: #fe6c00;
+        border: none;
+        float: left;
+    }
+    .mainNav_2_1{
+        width: 586px;
+        height: 62px;
+    }
+    .mainNav_2_2{
+        width: 560px;
+        height: 22px;
+        margin-left: 45px;
+        color: #fff;
+    }
+    .mainNav_2_font1{
+        color: #ff0000;
+    }
+    .mainNav_2_font2{
+        color: #aca9d3;
+    }
+    .mainNav_2_2 ul li{
+        width:50px;
+        float: left;
+        font-size: 10px;
+        padding-left: 4px;
+        border-right: 1px solid #ebe7e7;
+    }
+    .mainNav_2_2 ul li:last-child{
+        border:none;
+    }
+    .mainNav_3{
+        
+        margin-top: 15px;
+        float: left;
+
+    }
+    .subnav{
+        width:1180px;
+        height:32px;
+        margin:0 auto;
+
+    }
+    .subnav ul li{
+        width: 120px;
+        height:30px;
+        text-align: center;
+        float:left;
+
+    }
+
+    .subnav ul li:first-child{
+        background-color: #fe6c00;
+        color: #fff;
+    }
+    .backgroundall{
+        width: 100%;
+        height: auto;
+        background-color: #f8f7f6;
+        margin:0 auto;
+        border-top:1px solid #ff4d04;
+    }
+    .content{
+        width: 1180px;
+        height: 550px;
+        text-align: center;
+        background-color: white;
+        margin:0 auto;
+        padding-top: 0px;
+    }
+    
+    .content_0{
+        width: 170px;
+        height: 550px;
+        float: left;
+    }
+    .content_1{
+        width: 800px;
+        height: 550px;
+        padding-left: 0;        
+        float: left;
+    }
+    .content_2{
+        width: 210px;
+        height: 550px;      
+        float: left;
+    }
+    .content_0_0{
+        width: 170px;
+        height: 428px;
+
+    }
+    .content_0_1{
+        width: 170px;
+        height: 122px;
+        
+        padding-top: 10px;
+    }
+    .li0-0{
+        width: 17px;
+        height: 398px;
+        padding-top: 30px;
+        background-color: #4c4c4a;
+        border-bottom: 1px solid #ff4d04;
+        color: red;
+        float: left;
+    }
+
+    .li0-1{
+        width: 153px;
+        height: 428px;
+        font-size:  12px;
+        border-bottom: 1px solid #ff4d04;
+        line-height: 32px;
+        text-align: center;
+        background-color: white;
+        color: black;
+        float: left;
+    }
+    .li0-1 table{
+        padding-left:   10px;
+    }
+    .li0-1 table tr th{
+        padding-left: 7px;
+    }
+    .content_ul{
+        float: left;
+        padding-left: 4px;
+        text-align: left;
+
+    }
+    .content_ul li{
+        height: 35px;
+    }
+    .content_ul li span{
+        padding-left: 4px;
+
+    }
+    .content_1_1{
+        border-top: 2px solid #ff4d04;
+    }
+    .content_1_1 ul li{
+        float: left;
+
+    }
+    .content_2_1{
+    	width: 216px;
+    	height: 50px;
+    	float: left;
+    	margin-left: 20px;
+    	
+    	
+    }
+    .content_2_1 span{
+    	color: #ff4d04;
+    }
+    .content_2_3{
+    	width: 210px;
+    	height: 180px;
+    	background-color: #fff;
+    }
+    .content_2_2{
+    	width: 210px;
+    	height: 315px;
+        margin:0 auto;
+    	position: relative;
+        top:0px;
+        left:0px;      
+        overflow: hidden;
+        
+    	
+    }
+    .content_2_2 ul li{
+        color: #fe6c01;
+        font-size: 12px;
+        line-height: 30px;
+
+    
+    }
+    .content_2_2_1{
+        position: absolute;
+        margin-left: 12px;   
+        top: 0px;
+        left: 0px;
+        
+    }
+
+
+    
+    
+    .guild{
+    	width: 1180px;
+    	height: 185px;
+
+    	margin:0 auto;
+    }
+    .guild_0{
+    	width:170px;
+    	height: 185px;
+    	float: left;
+
+    }
+    .guild_1{
+    	width:780px;
+    	height: 185px;
+    	float: left;
+    	font-size: 10px;
+    	color: #666560;
+    }
+    .guild_2{
+    	width: 200px;
+    	height: 185px;
+    	margin-left: 30px;
+    	float: left;
+    }
+    .guild_1 ul li{
+    	width: 100px;
+    	height: 30px;
+    	margin-left: 25px;
+    	float: left;
+    }
+     .guild_1 ul li ul li:first-child{
+     	font-size: 15px;
+     	color: black;
+     }
+     .nav{
+     	width: 1180px;
+     	height: 60px;
+     	margin: 0 auto;
+     }
+     .nav ul{
+     	width: 800px;
+     	margin: 0 auto;
+     }
+     .nav ul li{
+     	width:80px;
+     	height: 10px;
+     	text-align: center;
+     	font-size: 10px;
+     	float: left;
+     	color: #666560;
+     	border-right: 1px solid #666560;
+     }
+     .nav ul li:last-child{
+     	border:none;
+     }
+     .copyRight{
+     	width: 1180px;    	
+     	height: 64px;
+     	margin:0 auto;
+
+     }
+     .copyRight div{
+     	width: 1100px;
+     	font-size: 9px;
+     	color: #666560;
+     	text-align: center;
+     	margin: 0 auto;
+     }
+     .footer{
+     	width: 800px;
+     	height: 60px;
+     	margin: 0 auto;
+     }
+     .footer img{
+     	float: left;
+     }
+
+
+    .content_1_1{
+    width: 800px;
+    height: 360px;    
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    }
+    .slider {
+        width: 6400px;/*8*800*/
+        position: absolute;
+        left: -800px;
+    }
+
+    .slide{
+        width: 800px;
+        float: left;
+    }
+
+    .content_1_1>span {
+        
+        width: 52px;
+        height: 52px;
+        display: block;
+        cursor: pointer;
+        top: 170px;
+        position: absolute;
+       
+        
+    }
+
+    #left {
+        left: 30px;
+    }
+
+    #right {
+        right: 30px;
+    }
+
+    .navv {
+        left:334px;
+        bottom: 24px;
+        position: absolute;
+        
+    }
+
+    .navv>li {
+        float: left;
+        width: 19px;
+        height: 17px;
+        background: #eeeeed;
+        text-align: center;
+        font-size: 13px;
+        margin: 0 3px;
+        border-radius: 50%;
+       
+        cursor: pointer;
+    }
+
+    
+
+    .content_2_3 div{
+        height: 20px;
+        text-align: left;
+        margin-left: 15px;
+        margin-bottom: 15px;
+    }
+    .content_2_3_1 span:last-child{
+        color: #ff4d04;
+        font-size: 13px;
+    }
+    .content_2_3_2 input{
+        color: #9a9793;
+    }
+    .content_2_3_3 button{
+        background-color:#ff4d04;
+        width: 180px;
+        height: 30px;
+        border-radius: 5px;
+        border: none;
+    }
+    .tip{
+        color:  #fe6c00;
+
+    }
+
+
+    .sli-0{
+        width: 145px;
+        height: 100px;
+        top:56px;
+        right: -100px;
+        z-index: 100;
+        position: fixed;
+        
+    }
+    .sli img{
+        display: block;
+    }
+    .sli-1{
+        position: fixed;
+        top:168px;
+        right: -100px;
+        width: 145px;
+        height: 140px;
+        background-color:#ff9261;
+        z-index: 100;
+        
+    }
+    .sli-2{
+        width: 145px;
+        height: 151px;
+        background-color: #ff9261;
+        top:312px;
+        right: -100px;              
+        z-index: 100;
+        position: fixed;
+    }
+    .sli-3{
+        width: 145px;
+        height: 160px;
+        right: -100px;       
+        z-index: 100;
+        top:466px;        
+        position: fixed;
+    }
+
+    .sli-2-1 img{
+        
+        width: 10px;
+        height: 15px;
+        padding-top:6px; 
+        padding-left:7px;
+        display: block;  
+        
+    }
+
+    .sli-2-1{
+        width: 23px;
+        height: 23px;
+        margin-top: 10px;
+        margin-left: 10px;
+        border-radius: 10px;
+        background-color: #fff;
+       
+        float: left;
+    }
+    
+    .sli-2-3 {
+        margin-top: 14px;
+        margin-left: 14px;
+        font-size: 12px;
+        color: #fff;        
+        float: left;
+    }
+    
+    .sli-2-2{
+        margin-top: 20px;
+    }
+    .fly-1{        
+        width: 60px;
+        margin-right: 10px;
+        float: left;
+
+    }
+    .fly-2{
+        
+        width: 70px;
+        float: left;
+    }
+    .fly-2 p{
+        font-size: 13px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .fly-2 button{
+        width: 60px;
+        height: 20px;
+        margin-top: 40px;
+        color: #fff;
+        text-align: center;
+        background-color: #ff9260;
+        border-radius: 6px;
+        border:1px  solid #fff;      
+    }
+    .fly-3{      
+        margin-top: 90px;  
+        margin-left: -88px;             
+        float: left;
+    }
+    .fly-4{
+        margin-top: 20px;
+        margin-left: 20px;
+        float: left;
+    }
+
+
+    
